@@ -1,0 +1,25 @@
+{
+  "name": "twilio-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:vite": "npm run dev --workspace=twilio-vite",
+    "dev:vue-cli": "npm run serve --workspace=twilio-vue-cli"
+  },
+  "workspaces": [
+    "./twilio-vite",
+    "./twilio-vue-cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wai-lin/vite-pkg-issue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wai-lin/vite-pkg-issue/issues"
+  },
+  "homepage": "https://github.com/wai-lin/vite-pkg-issue#readme"
+}
